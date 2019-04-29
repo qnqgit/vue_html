@@ -12,7 +12,9 @@ html,body {
   background: url('../img/head.png') ;
   background-size: cover;
   font-family: "楷体";
-  font-size: 18px;
+  font-size: 16px;
+  padding: 0 18px;
+  box-sizing: border-box;
 }
 .header {
   height: 50px;
@@ -25,6 +27,9 @@ li {
 }
 h4 {
   margin-bottom: 5px;
+}
+p {
+  margin-bottom: 8px;
 }
 .images {
   height: 100%;
